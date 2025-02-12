@@ -1,0 +1,100 @@
+
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    padding: 0.7rem;
+    border-radius: 15px 15px 0px 0px;
+    background-image: url('../img/bg-pokemon.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+}
+
+#bt-back {
+    color: #ffffff;
+    background-color: #0000007c;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.cabecalho .name {
+    font-size: 1.5rem;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 3px #fff, -2px -2px 3px #fff;
+}
+
+.cabecalho .number{
+    font-size: 1.9rem;
+    text-align: right;
+    color: #202020;
+}
+
+.cabecalho .types {
+    margin-top: 0;
+    padding: 0;
+}
+
+.cabecalho .types .type {
+    display: inline;
+    margin: .2rem;
+    padding: .5rem;
+    border-radius: 1rem;
+    filter: brightness(1.15);
+}
+
+.cabecalho img {
+    width: 200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+.details {
+    margin-top: -2rem;
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: #fdfbef;
+}
+.details span {
+    background-color: #aeeeee;
+    padding: .4rem;
+    border-radius: .9rem;
+}
+.details ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.details ul li {
+    line-height: 1.5rem;
+    text-transform: capitalize;
+    word-spacing: .5rem;
+}
+
+.list-stats .hp::before{
+    content: '❤';
+    color: #ff0000;
+}
+
+.list-stats .attack::before{
+    content: '🗡';
+    color: #001069;
+}
+
+.list-stats .defense::before{
+    content: '🛑';
+}
+
+.list-stats .special-attack::before{
+    content: '⚡';
+}
+
+.list-stats .special-defense::before{
+    content: '🔰';
+}
+
+.list-stats .speed::before{
+    content: '💨';
+}
+
+.list-stats .total::before{
+    content: '💪🏻';
+}
